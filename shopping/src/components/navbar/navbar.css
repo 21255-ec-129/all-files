@@ -1,0 +1,77 @@
+.navbar{
+    display: flex;
+    /* pakkana pakkana ravadaniki */
+    justify-content:space-around;
+    /* to equally space ravadaniki  */
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-logo p{
+    color: black;
+    font-size: 38px;
+    font-weight: 600px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav-menu hr{
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    border: none;
+    background: red;
+}
+.nav-login-cart {
+    display: flex;
+     gap: 45px;
+    align-items: center;
+}
+.nav-login-cart button{
+    width: 157px;
+    height: 58px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 75px;
+    cursor: pointer;
+    background-color: yellow;
+    font-weight:500 ;
+    color: #515151; ;
+    font-size: 20px;
+
+   
+}
+.nav-login-cart button :active{
+    background:skyblue;
+}
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+   color: white;
+
+}

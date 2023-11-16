@@ -1,0 +1,27 @@
+.item{
+    width: 350px;
+}
+.item p{
+    margin: 6px 0px;
+}
+.item-prices{
+    display: flex;
+    gap: 20px;
+}
+.item-price-new{
+    color: #373737;
+    font-size: 18px;
+    font-weight: 600;
+}
+.item-price-old{
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+    /* middle of the content give on underline */
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.6s; 
+    /* both prop for ofter 0.6 sec over the img */
+}
